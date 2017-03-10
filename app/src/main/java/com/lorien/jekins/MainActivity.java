@@ -3,6 +3,7 @@ package com.lorien.jekins;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
@@ -19,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
 
         Intent intent = new Intent(this, WelcomeActivity.class);
         intent.putExtra(KEY_USERNAME, "lorienzhang");
+        Log.d("TAG", "for test");
         startActivity(intent);
     }
 }
