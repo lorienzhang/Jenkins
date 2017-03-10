@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
 
         Intent intent = new Intent(this, WelcomeActivity.class);
         intent.putExtra(KEY_USERNAME, "lorienzhang");
-        Log.d("TAG", "for test");
+        Log.d("TAG", "for testt");
         startActivity(intent);
     }
 }
